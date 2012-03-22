@@ -1,0 +1,15 @@
+{ "name":			"upnp"
+, "description":	"A (crude) UPnP client and server"
+, "keywords":		[ "media", "device", "upnp", "dlna" ]
+, "version":		"0.0.1"
+, "author":			"Nicholas Libby <Xedecimal@gmail.com>"
+, "repository":		{ "type":  "mercurial"
+					, "url":   "https://bitbucket.org/Xedecimal/node-upnp" }
+, "bugs":			{ "url":   "https://bitbucket.org/Xedecimal/node-upnp/issues" }
+, "os":				[ "linux"
+					, "windows"
+					, "mac" ]
+, "main":			"./upnp"
+, "dependencies":	{ "ssdp": ">=0.0.1" }
+, "engines":		{ "node": ">=0.6.11" }
+}
