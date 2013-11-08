@@ -10,6 +10,7 @@
 , "os":				[ "linux"
 					, "windows"
 					, "mac"
+					, "darwin"
 					]
 , "main":			"./upnp"
 , "dependencies":	{ "ssdp": ">=0.0.1"
